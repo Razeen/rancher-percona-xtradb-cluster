@@ -19,7 +19,7 @@ ENV PXC_VOLUME /var/lib/mysql
 ENV PXC_CONF /etc/mysql/conf.d/pxc.cnf
 ENV PXC_CONF_FLAG /etc/mysql/pxc.configured
 ENV SSH_USER root
-ENV SSH_PORT 2222
+ENV SSH_PORT 2223
 ENV MYSQLCHK_PORT 9200
 ENV SSH_OPTS -p ${SSH_PORT} -o ConnectTimeout=20 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
 
